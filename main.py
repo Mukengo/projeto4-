@@ -2,7 +2,7 @@ from fastapi import FastAPI
 import pandas as pd
 
 # Carregando o dataset
-df = pd.read_csv("data/pokemon.csv")
+df = pd.read_csv("Dataset.csv")
 
 # Inicializando a API
 app = FastAPI()
